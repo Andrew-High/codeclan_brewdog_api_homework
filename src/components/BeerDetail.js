@@ -1,11 +1,11 @@
 const BeerDetail = ({selectedBeer}) => {
     return (
-        <div>
+        <div id="beer-detail">
             <h3>{selectedBeer.name}</h3>
             <p>{selectedBeer.tagline}</p>
             <p>ABV: {selectedBeer.abv}%</p>
-            <p>{selectedBeer.description}</p>
-            <img url= {selectedBeer.image_url}></img>
+            <p id="beer-description">{selectedBeer.description}</p>
+            <img src= {selectedBeer.image_url} width="66" height="240" alt=""/>
         </div>
     )
 }

@@ -7,8 +7,8 @@ const BeerList = ({beers, onBeerClick}) => {
     })
 
     return (
-        <div>
-            <ul>
+        <div id="beer-list-div">
+            <ul id="beer-list">
                 {beerItems}
             </ul>
         </div>

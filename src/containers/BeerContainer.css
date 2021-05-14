@@ -1,0 +1,19 @@
+#beer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#beer-list {
+    list-style-type: none;
+
+}
+
+#beer-detail {
+    
+    text-align: right;
+    margin-right: 30px;
+}
+
+#beer-description {
+    width: 450px;
+}
