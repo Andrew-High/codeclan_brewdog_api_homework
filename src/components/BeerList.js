@@ -6,10 +6,12 @@ const BeerList = ({beers, onBeerClick}) => {
         return <ListItem beer={beer} key={index} onBeerClick={onBeerClick}/>
     })
 
+    const pageBeerItems = beerItems.slice(0, 20);
+
     return (
         <div id="beer-list-div">
             <ul id="beer-list">
-                {beerItems}
+                {pageBeerItems}
             </ul>
         </div>
     )

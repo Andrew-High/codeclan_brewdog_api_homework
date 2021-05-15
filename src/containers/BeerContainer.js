@@ -34,7 +34,13 @@ const BeerContainer = () => {
 
     return (
         <div id="beer-container">
-            <BeerList beers={beers} onBeerClick={onBeerClick} id="beer-list"/>
+            <div>
+                <BeerList beers={beers} onBeerClick={onBeerClick} id="beer-list"/>
+                <div id="buttons">
+                    <button>Back</button>
+                    <button id="forward-button">Forward</button>                    
+                </div>                
+            </div>
             {selectedBeer ? <BeerDetail id="beer-detail" selectedBeer={selectedBeer}/> : null}
         </div>
     )
