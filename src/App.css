@@ -7,3 +7,18 @@
   margin-top: 35px;
 }
 
+#app {
+  background-image: url("https://www.brewdog.com/public/files/BLOG%20PHOTOS/BrewDogBrewery.jpg");
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  margin: 8px;
+  
+}
+
+ul {
+  margin-left: 20px;
+}
